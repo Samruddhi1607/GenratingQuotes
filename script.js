@@ -1,3 +1,5 @@
+// Stores two lists of quotes
+
 const quotes = {
     inspirational: [
         "\"The only way to do great work is to love what you do.\"",
@@ -29,7 +31,7 @@ function getQuote(type) {
         quoteElement.style.opacity = 1;
     }, 300);
 }
-
+// Generates a random hex color for background and text.
 function getRandomColor() {
     const letters = "0123456789ABCDEF";
     let color = "#";
